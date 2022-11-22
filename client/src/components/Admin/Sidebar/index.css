@@ -1,0 +1,31 @@
+.sidebar {
+    height: 100%;
+    background-color: rgb(220, 181, 235);
+}
+.sidebar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.sidebar ul li {
+    text-align: center;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding: 1rem 1rem;
+    width: 100%;
+    font-size: 1rem;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+
+}
+.sidebar ul li:hover {
+    background-color: rgb(62, 62, 62);
+    color: white;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
